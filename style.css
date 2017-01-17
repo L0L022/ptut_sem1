@@ -1,0 +1,253 @@
+/* CSS v2 du site du projet tuteuré */
+
+@font-face {
+	font-family : game_over;
+	src :url(fichiers_site_v2/game_over.ttf);
+}
+
+* {
+	font-family : calibri, arial, sans-serif;
+}
+
+html, body {
+	background-color : white;
+	margin : 0px;
+	padding: 0px;
+	height : 100%;
+}
+
+a {
+	text-decoration : none;
+	color : rgb(255, 153, 0)
+}
+
+a:hover {
+	color : rgb(115, 115, 115);
+}
+
+a:visited {
+	color : rgb(115, 115, 115);
+}
+
+/* Navigation */
+#navigation {
+	float : left;
+	height : 100%;
+	width : 200px;
+	background-color : rgb(51, 51, 51);
+	color : white;
+	position : fixed;
+}
+
+#logo {
+	height : 100px;
+	width : 190px;
+}
+
+.bouton {
+	text-align : center;
+	font-size : 25px;
+	padding : 10px;
+}
+
+.bouton a {
+	text-decoration : none;
+	color : white;
+}
+
+.bouton a:hover {
+	color : rgb(115, 115, 115);
+}
+
+/* Contenu */
+.article {
+	width : 1600px;
+	margin-top : 20px;
+	margin-left : 250px;
+	background-color : rgb(230, 230, 230);
+	padding : 10px;
+	text-align : justify;
+	font-size : 17px;
+	border : 0.5px solid rgb(51, 51, 51);
+	margin-bottom : 20px;
+}
+
+.texte {
+	-moz-column-count : 3;
+	-moz-column-gap : 2em;
+	-webkit-column-count : 3;
+	-webkit-column-gap : 2em;
+	column-count : 3;
+	column-gap : 2em;
+}
+
+#article-intro {
+	width : 1600px;
+	margin-top : 20px;
+	margin-left : 250px;
+	background-color : rgb(51, 51, 51);
+	padding : 2px;
+	font-size : 50px;
+	text-align : center;
+	color : white;
+}
+
+#article-intro a {
+	text-decoration : none;
+	color : white;
+}
+
+#article-intro a:hover {
+	color : rgb(115, 115, 115);
+}
+
+#article-news {
+	width : 1600px;
+	margin-top : 20px;
+	margin-left : 250px;
+	padding : 10px;
+	text-align : justify;
+	font-size : 15px;
+	margin-bottom : 20px;
+}
+
+#grande-image {
+	position : relative;
+	margin-top : 20px;
+	margin-left : 250px;
+	position : absolute;
+	height : 500px;
+	width : 600px;
+}
+
+#2017 {
+	width : 600px;
+	height : 500px;
+}
+
+#grand-texte {
+	position : absolute;
+	top : 440px;
+	background-color : rgba(230, 230, 230,0.9);
+	font-size : 20px;
+	width : 500px;
+	padding : 5px;
+	text-align : justify;
+}
+
+#grand-texte p {
+	padding : 1px;
+}
+
+
+#article-apropos {
+	width : 1600px;
+	margin-top : 20px;
+	margin-left : 250px;
+	background-color : rgb(230, 230, 230);
+	padding : 10px;
+	font-size : 15px;
+	border : 0.5px solid rgb(51, 51, 51);
+	margin-bottom : 20px;
+}
+
+#article-annonce {
+	width : 1584px;
+	margin-top : 15px;
+	margin-left : 250px;
+	background-color : rgb(230, 230, 230);
+	padding : 10px;
+	text-align : justify;
+	font-size : 17px;
+	border : 0.5px solid rgb(51, 51, 51);
+	margin-bottom : 20px;
+}
+
+.titre {
+	font-size : 50px;
+}
+
+.separateur {
+	width : 1620px;
+	margin-left : -10px;
+}
+
+.intro {
+	font-family : game_over;
+}
+
+.sous-intro {
+	font-family : calibri;
+	font-size : 20px;
+}
+
+#version {
+	font-size : 20px;
+	margin-left : 700px;
+}
+
+.image-article {
+	width : 300px;
+	height : 250px;
+	float : center;
+	margin-left : 100px;
+	border : 2px solid orange;
+}
+
+/* News */
+
+#news {
+	margin-top : 20px;
+	margin-left : 950px;
+}
+
+tr {
+	background-color : rgb(230, 230, 230);
+	height : 10px;
+	font-size : 18px;
+}
+
+td {
+	padding : 5px;
+	height : 45px;
+	width : 810px;
+}
+
+#premiere-ligne {
+	background-color : rgb(51, 51, 51);
+	width : 100px;
+	color : white;
+	font-weight : bold;
+	font-size : 20px;
+	text-align : center;
+}
+
+.ligne-paire {
+	background-color : rgb(179, 179, 179);
+}
+
+.date {
+	width : 70px;
+	padding : 5px;
+	font-weight : bold;
+	font-size : 15px;
+}
+
+/* Formulaire */
+label {
+	display : inline-block;
+	width : 120px;
+	text-align : right;
+}
+
+input, textarea, select, button {
+	width : 200px;
+	margin : 5px;
+	-webkit-box-sizing : border-box;
+	-moz-box-sizing : border-box;
+	box-sizing : border-box;
+}
+
+#envoyer {
+	margin-left : 125px;
+}
